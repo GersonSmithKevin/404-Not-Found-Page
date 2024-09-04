@@ -112,4 +112,10 @@ body {
     /* Centra para dejar en medio del contenedor */
 
   }
+
+  .img {
+    width: 100%;
+    height: 375px;
+    object-fit: contain;
+  }
 }
