@@ -88,3 +88,15 @@ body {
   text-align: left;
   width: 10wh;
 }
+
+/* Ajustes para pantallas móviles */
+@media (max-width: 375px) {
+
+  .mirrow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Alinea los elementos verticalmente en el centro */
+
+  }
+}
