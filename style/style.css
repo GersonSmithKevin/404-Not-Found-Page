@@ -11,7 +11,6 @@
 
 body {
   color: #333333;
-  /* Black */
   font-family: 'Space Mono', monospace;
   /* Fuente tipográfica */
 
@@ -28,9 +27,7 @@ body {
   text-align: left;
   font-size: 16px;
   background-color: #333333;
-  /* Color de fondo negro */
   color: #FFFFFF;
-  /* Color del texto blanco */
 
   padding-top: 2em;
   padding-bottom: 2em;
@@ -39,13 +36,10 @@ body {
   /* padiding  */
 
   text-align: center;
-  /* Centra el texto */
   font-size: 12px;
-  /* Tamaño de fuente */
   cursor: pointer;
   /* Cambia el cursor al pasar sobre el botón */
   margin-top: 2em;
-  /* Margen superior  */
 
 }
 
@@ -59,4 +53,38 @@ body {
   font-size: 45px;
   text-align: left;
   font-weight: bold;
+}
+
+.containerImage {
+  height: 90vh;
+  /* Mantiene la relación con el viewport */
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  /* Centra para dejar en medio del contenedor */
+
+}
+
+/* Ajusta el tamaño de la imagen para que no se desborde */
+.img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.mirrow {
+  display: flex;
+  /*Alinea los elementos verticalmente*/
+  align-items: center;
+  /* Alinea  en el centro */
+
+}
+
+.containerInfor {
+  /*Alinea los elementos horizontalmente*/
+  display: block;
+  text-align: left;
+  width: 10wh;
 }
