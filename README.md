@@ -1,6 +1,7 @@
 # Make It Real - NAME OF THE PROJECT
 
-This is a solution to the _______ project of the Make It Real course.
+This is a solution for the 404 Not Found page implementation for the Gerson Camacho.
+
 
 ## Table of contents
 
@@ -22,18 +23,16 @@ This is a solution to the _______ project of the Make It Real course.
 
 Users should be able to:
 
-- Task 1
-- Task 2
+- Create the HTML structure
+- Apply styling to the elements
+- Implement media queries for different screen sizes
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](./design/desktop-design.png)
+&nbsp;
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Screenshot](./design/mobile-design.jpg);
 
 
 ## My process
@@ -47,22 +46,23 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### Major Learnings
 
-To see how you can add code snippets, see below:
+One of the key takeaways from this project was learning how to use media queries to adjust styles for different screen sizes. For example, I learned how to implement responsive design using CSS media queries to ensure that elements are properly displayed on mobile screens.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Here is a code snippet highlighting how I used media queries:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Adjustments for mobile screens */
+@media (max-width: 375px) {
+  .mirrow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Aligns elements vertically in the center */
+  }
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
