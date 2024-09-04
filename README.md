@@ -65,23 +65,21 @@ Here is a code snippet highlighting how I used media queries:
 
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I will continue to focus on improving my skills in aligning HTML elements with CSS to enhance responsive design. This includes refining techniques for positioning elements effectively and ensuring that layouts adapt seamlessly to different screen sizes. Mastering these alignment techniques will help in creating more polished and user-friendly designs.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Markdown Guide](https://markdown.es/) - A useful resource for Markdown syntax.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Gerson Smith Kevin Omar Camacho Cobeñas](https://gersonsmithkevin.github.io/404-Not-Found-Page/)
+
 
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+A special thanks to my ProInnóvate classmates for their support and to the tutors at Make It Real for their valuable guidance. Your help has been greatly appreciated.
+
