@@ -98,5 +98,18 @@ body {
     flex-direction: column;
     /* Alinea los elementos verticalmente en el centro */
 
+
+  }
+
+  .containerImage {
+    height: max-content;
+    /* Mantiene la relación con el viewport */
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    /* Centra para dejar en medio del contenedor */
+
   }
 }
